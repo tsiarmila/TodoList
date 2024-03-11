@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
             todoItem.appendChild(todoText);
 
             const priorityStar = document.createElement('span');
-            priorityStar.textContent = '⛥';
+            priorityStar.textContent = '☆';
             priorityStar.classList.add('priority-star');
             if (todo.priority) {
                 priorityStar.textContent = '⭐';
