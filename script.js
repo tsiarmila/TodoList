@@ -115,3 +115,7 @@ console.log('todos', todos)
 
     renderTodos();
 });
+
+document.getElementById('accept-cookies').addEventListener('click', function() {
+  document.getElementById('cookie-message').style.display = 'none';
+});
